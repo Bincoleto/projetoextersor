@@ -5,75 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario Cadastro</title>
+    <link rel="stylesheet" href="./Styles/formulario.css"
 
-    <style>
-         body{
-            font-family: Arial, Helvetica, sans-serif;
-            background-image: linear-gradient(45deg, cyan, yellow);
-        }
-
-        .box{
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%,-50%);
-            padding: 15px;
-            border-radius: 15px;
-            background-color: rgba(0, 0, 0, 0.7);
-            color:white;
-            width: 25%;
-        }
-
-        fieldset{
-            border: 3px solid dodgerblue;
-        }
-
-        legend{
-            border: 2px solid dodgerblue;
-            padding: 10px;
-            text-align: center;
-            background-color: dodgerblue;
-            border-radius: 10px;
-        }
-
-        .inputBox{
-            position: relative;
-        }
-
-        .inputUser{
-            background: none;
-            border: none;
-            border-bottom: 1px solid white;
-            outline: none;
-            color: white;
-            font-size: 15px;
-            width: 100%;
-            letter-spacing: 2px;
-        }
-
-        .label_imput{
-            position: absolute;
-            top: 0px;
-            left: 0px;
-            pointer-events: none;
-            transition: .5s;
-        }
-
-        .inputUser:focus ~.label_imput, 
-        .inputUser:valid ~ .label_imput{
-            top: -20px;
-            font-size: 12px;
-            color: dodgerblue;
-        }
-
-        a{
-            color: white;                   
-        }
-
-        a:hover{
-            color: wheat;
-        }
-    </style>
 </head>
 <body>
     <div class="box">
