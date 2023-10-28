@@ -3,17 +3,22 @@ body{
     background-image: linear-gradient(45deg, cyan, yellow);
 }
 
-div{
-    background-color: rgba(0, 0, 0, 0.8);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    padding: 50px;
-    border-radius: 15%;
-    color: white;
+.navegacao{
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+    font-size: 30px;
+    padding: 15px;
+    color: black;
 }
 
-a{
-    color: white;
+.color_navegacao{
+    color: black;
+}
+
+.titulo_site{
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
 }
